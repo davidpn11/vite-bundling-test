@@ -1,0 +1,39 @@
+{
+  "name": "vite-bundling-test",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "webpack serve --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.38",
+    "@types/react-dom": "17.0.11",
+    "@types/styled-components": "5.1.14",
+    "@vitejs/plugin-react": "^1.0.3",
+    "vite": "5.0.3",
+    "vite-plugin-dts": "3.6.3",
+    "vite-tsconfig-paths": "^3.3.3",
+    "vite-plugin-svgr": "4.2.0",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.0.2",
+    "typescript-plugin-styled-components": "^2.0.0",
+    "webpack-dev-server": "^4.13.3",
+    "webpack-merge": "^5.8.0",
+    "css-loader": "6.4.0",
+    "html-webpack-plugin": "^5.5.1",
+    "style-loader": "3.3.3",
+    "ts-loader": "^9.4.2"
+  }
+}

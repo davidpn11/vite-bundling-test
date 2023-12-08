@@ -1,0 +1,19 @@
+{
+  "name": "vite-bundling-test",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.9.3",
+    "typescript": "5.2.2"
+  },
+  "resolutions": {
+    "@types/react": "17.0.38"
+  }
+}

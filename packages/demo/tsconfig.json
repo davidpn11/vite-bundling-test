@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "module": "esnext",
+    "target": "ES6",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "types": ["node"]
+  },
+  "include": ["src", "../../@types"],
+  "exclude": ["node_modules"]
+}
