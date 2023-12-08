@@ -2,12 +2,15 @@
   "name": "vite-shared",
   "version": "1.0.0",
   "description": "",
-  "workspaces": [
-    "packages/*"
-  ],
   "keywords": [],
+  "main": "dist/vite-shared.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "build": "vite build"
+  },
   "dependencies": {
     "react": "17.0.2",
     "react-dom": "17.0.2",

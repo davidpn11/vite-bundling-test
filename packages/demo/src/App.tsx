@@ -1,3 +1,12 @@
+import { Button, MainThemeProvider } from "vite-shared";
+
 export function App() {
-  return <div>hello</div>;
+  return (
+    <MainThemeProvider>
+      <div>
+        hello
+        <Button variant="destructive">Hello</Button>
+      </div>
+    </MainThemeProvider>
+  );
 }
